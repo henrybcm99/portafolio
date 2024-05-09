@@ -1,10 +1,10 @@
-import Image from "next/image";
-import Me from "./me/me";
+
+import Homepage from "./home/page";
 
 export default function Home() {
   return (
-    <div>
-      <Me></Me>
+    <div className="">
+      <Homepage/>
     </div>
   );
 }
